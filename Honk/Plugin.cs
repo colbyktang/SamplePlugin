@@ -4,13 +4,13 @@ using Dalamud.Plugin;
 using System.IO;
 using System.Reflection;
 
-namespace SamplePlugin
+namespace HonkPlugin
 {
     public sealed class Plugin : IDalamudPlugin
     {
-        public string Name => "Sample Plugin";
+        public string Name => "Honk";
 
-        private const string commandName = "/pmycommand";
+        private const string commandName = "/honkcfg";
 
         private DalamudPluginInterface PluginInterface { get; init; }
         private CommandManager CommandManager { get; init; }

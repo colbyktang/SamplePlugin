@@ -1,0 +1,16 @@
+{
+  "Author": "Windcat",
+  "Name": "Honk",
+  "Punchline": "Become a legendary honker.",
+  "Description": "/honk to honk someone. \n/honkcfg to configure your honks.",
+  "InternalName": "honk",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "honk",
+    "honking",
+    "honker",
+    "foxy",
+    "wind",
+    "windcat"
+  ]
+}

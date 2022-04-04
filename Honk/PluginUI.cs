@@ -2,7 +2,7 @@
 using System;
 using System.Numerics;
 
-namespace SamplePlugin
+namespace HonkPlugin
 {
     // It is good to have this be disposable in general, in case you ever need it
     // to do any cleanup
@@ -28,6 +28,7 @@ namespace SamplePlugin
         }
 
         // passing in the image here just for simplicity
+
         public PluginUI(Configuration configuration, ImGuiScene.TextureWrap goatImage)
         {
             this.configuration = configuration;
